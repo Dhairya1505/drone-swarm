@@ -1,0 +1,38 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python metadata
+# =========================
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Node / Vite build output
+# =========================
+node_modules/
+dist/
+dist-ssr/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.sw?
